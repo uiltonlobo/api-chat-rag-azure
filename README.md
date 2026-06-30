@@ -28,6 +28,7 @@ source venv/bin/activate
 
 # Instalar dependências
 pip install openai azure-search-documents azure-identity python-dotenv fastapi uvicorn langchain pymupdf
+```
 
 ## 2. Variáveis de Ambiente
 Crie um arquivo .env na raiz do projeto com as seguintes credenciais:
