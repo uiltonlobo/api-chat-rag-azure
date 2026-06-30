@@ -1,0 +1,8 @@
+O módulo langchain.text_splitter foi movido para um pacote separado a partir do LangChain v0.2. Instale:
+
+E atualize o import em ingest_data.py:7:
+
+O pacote langchain principal não inclui mais os splitters diretamente — eles ficam em langchain-text-splitters (com underscore no import).
+
+------------------------------
+
